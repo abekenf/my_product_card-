@@ -13,7 +13,11 @@ body {
   font-weight: 400;
 }
 
-.mousse, .mask, .FaceWashGel, .Giftset1, .Giftset5 {
+.mousse,
+.mask,
+.FaceWashGel,
+.Giftset1,
+.Giftset5 {
   font-size: 20px;
   color: #515076;
   line-height: 27px;
@@ -26,7 +30,9 @@ body {
   line-height: 24px;
 }
 
-.discription, .structure, .list {
+.discription,
+.structure,
+.list {
   font-size: 13px;
   color: #515076;
   line-height: 18px;
@@ -45,9 +51,24 @@ body {
 }
 
 
-.rub {  
+.rub {
   font-size: 20px;
   color: #515076;
   line-height: 24px;
   font-weight: 400;
+}
+
+.products-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.price-container {
+  display: flex;
+  justify-content: space-between;
+
 }
