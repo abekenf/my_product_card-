@@ -58,7 +58,7 @@ body {
   font-weight: 400;
 }
 
-.products-list {
+.my-products-list {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -67,7 +67,7 @@ body {
   list-style-type: none;
 }
 
-.price-container {
+.all-price-container {
   display: flex;
   justify-content: space-between;
 
