@@ -1,6 +1,7 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 13px;
+  background-image: url('images/bg_decor.png');
 }
 
 .card-title {
@@ -58,7 +59,7 @@ body {
   font-weight: 400;
 }
 
-.products-list {
+.my-products-list {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -67,7 +68,7 @@ body {
   list-style-type: none;
 }
 
-.price-container {
+.all-price-container {
   display: flex;
   justify-content: space-between;
 
