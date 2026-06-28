@@ -4,7 +4,7 @@ body {
   background-image: url('images/background-dandelions.png');
 }
 
-.card-title {
+.product-card-title {
   font-size: 70px;
   width: 848px;
   text-align: center;
@@ -14,26 +14,30 @@ body {
   font-weight: 400;
 }
 
-.mousse,
-.mask,
-.FaceWashGel,
-.Giftset1,
-.Giftset5 {
+.product-card-mousse,
+.product-card-mask,
+.product-card-FaceWashGel,
+.product-card-Giftset1,
+.product-card-Giftset5 {
   font-size: 20px;
   color: #515076;
   line-height: 27px;
   margin: 20px 0 10px;
 }
 
-.for-normal-skin {
+.product-card-skin {
   font-size: 12px;
   color: #A5A3B9;
   line-height: 24px;
+  text-transform: uppercase;
+  display: block;
+  text-align: left;
+  clear: both;
 }
 
-.discription,
-.structure,
-.list {
+.product-card-discription,
+.product-card-structure,
+.product-card-list {
   font-size: 13px;
   color: #515076;
   line-height: 18px;
@@ -44,7 +48,11 @@ body {
   padding-bottom: 16px;
 }
 
-.price {
+.product-price-mousse,
+.product-price-mask,
+.product-price-FaceWashGel,
+.product-price-Giftset1,
+.product-price-Giftset5 {
   font-size: 20px;
   color: #515076;
   line-height: 24px;
@@ -52,14 +60,14 @@ body {
 }
 
 
-.rub {
+.product-price-ruble {
   font-size: 20px;
   color: #515076;
   line-height: 24px;
   font-weight: 400;
 }
 
-.my-products-list {
+.product-card {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -68,7 +76,7 @@ body {
   list-style-type: none;
 }
 
-.all-price-container {
+.product-price{
   display: flex;
   justify-content: space-between;
 
