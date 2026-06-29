@@ -81,3 +81,11 @@ body {
   justify-content: space-between;
 
 }
+
+.change-button-color {
+  background-color: blue;
+}
+
+.change-button-color.active {
+  background-color: red;
+}

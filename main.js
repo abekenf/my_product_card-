@@ -4,10 +4,10 @@ changeColorMousseItem.addEventListener('click', () => {
   firstCard.style.backgroundColor = '#d91313';
 });
 
-const AllCard = document.querySelectorAll('.product-card');
+const allCard = document.querySelectorAll('.product-card');
 const changeColorAll = document.querySelector('#change-color-all');
 changeColorAll.addEventListener('click', () => {
-  AllCard.forEach(card => {
+  allCard.forEach(card => {
     card.style.backgroundColor = '#79d913';
   });
 })
@@ -32,3 +32,8 @@ productTitle.addEventListener('mouseover', () => {
   console.log(productTitle.textContent);
 });
 
+const buttonColor = document.querySelector('.change-button-color');
+buttonColor.addEventListener('click', changeButtonColor);
+function changeButtonColor() {
+  buttonColor.classList.toggle("active")
+}
