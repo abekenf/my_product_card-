@@ -1,16 +1,16 @@
-function shoWweather(city, temperature) {
+function showWeather(city, temperature) {
   console.log(`Сейчас в ${city} температура — ${temperature} градусов по Цельсию`);
 }
 
-shoWweather('Almaty', '+25');
+showWeather('Almaty', '+25');
 
-const SPEED_LIGHT = '299 792 458';
+const LIGHT_SPEED = '299 792 458';
 
 function speedLight(speed) {
-  if (speed > SPEED_LIGHT) {
+  if (speed > LIGHT_SPEED) {
     console.log('Сверхсветовая скорость');
   }
-  else if (speed === SPEED_LIGHT) {
+  else if (speed === LIGHT_SPEED) {
     console.log('Скорость света');
   }
   else {
