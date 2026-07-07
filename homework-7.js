@@ -6,7 +6,7 @@ showWeather('Almaty', '+25');
 
 const LIGHT_SPEED = '299 792 458';
 
-function lightSpeed(speed) {
+function showLightSpeed(speed) {
   if (speed > LIGHT_SPEED) {
     console.log('Сверхсветовая скорость');
   }
@@ -18,7 +18,7 @@ function lightSpeed(speed) {
   }
 }
 
-lightSpeed('299 792 458');
+showLightSpeed('299 792 458');
 
 let variableNumber1 = 'bread';
 let variableNumber2 = 'price';
