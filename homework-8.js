@@ -139,13 +139,17 @@ console.log(allBooks);
 //task 10
 
 function addIsRare(allbooks) {
-  allbooks.map(book => {
+  const result = allbooks.map(book => {
     if (book.year > 2000) {
       book.isRare = true;
     } else {
       book.isRare = false;
     }
-  });  
+
+    return book;
+  });
+
+  return result;
 }
 
 console.log(addIsRare(allBooks));
